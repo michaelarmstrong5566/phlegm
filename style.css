@@ -42,3 +42,14 @@ a {
   color: #4da538;
   text-decoration: none;
 }
+
+/* COVER */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 50% of the viewport */
+  height: 50vh;
+  
+}
+
