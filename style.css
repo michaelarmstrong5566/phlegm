@@ -50,8 +50,11 @@ a {
   justify-content: center;
   /* 50% of the viewport (i.e. Window of the browser */
   height: 50vh;
-  
 }
+.cover {
+  width: 30rem;
+}
+
 
 /* GRiD */
 .grid-wrapper {
