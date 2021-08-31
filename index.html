@@ -4,28 +4,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
-    <title>RT-Mike's-COPD-Help-Page</title>
+    <title>copd.ai</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
-    <nav class="zone green">
-        <ul class="main-nav">
-            <li><a href="">Dev1</a></li>
-            <li><a href="">Dev2</a></li>
-            <li><a href="">Dev3</a></li>
-            <li class="push"><a href="">Dev4</a></li>
-        </ul>
-    </nav>
+    <form id="form">
+    <fieldset>
+        <legend>Spirometry</legend>
+        <label for="fev1-post">FEV1 Post-bronchodilator</label><br>
+        <input type="number" id="fev1-post" placeholder="FEV1 (L)"><br><br>
+
+        <label for="fvc-post">FVC Post-bronchodilator</label><br>
+        <input type="number" id="fvc-post" placeholder="FVC (L)"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Definitions</legend>
+        <P><dfn title="">Spirometry</dfn> "a breathing test which involve breathing fully in and blowing out as fast as possible"</P>
+        <p><dfn title="Forced Expiratory Volume 1 second">FEV1</dfn> "after breathing in fully, the amount of air in liters forcefully expelled in one second"</p>
+        <p><dfn title="Forced Expiratory Volume">FVC</dfn> "after breathing in fully, the total amount of air in liters forcefully expelled"</p>
+        <p><dfn title="">Post-bronchodilator</dfn> "after using a bronchodilator"</p>
+        <p><dfn title="">bronchodilator</dfn> "a medication that opens airways in the lungs making it easier to breath"</p>
+    </fieldset>
+
+
+   
     
-    <div class="container zone"><img class="cover" src=""></div>
-    <div class="zone blue grid-wrapper">
-        <div class="box zone"><img src="./octopus.jpg"></div>
-        <div class="box zone"><img src="./octopus.jpg"></div>
-        <div class="box zone"><img src="./octopus.jpg"></div>
-        <div class="box zone"><img src="./octopus.jpg"></div>
-    </div>
-    
-    <footer class="zone yellow">Footer</footer>
+    </form>
+
 </body>
 </html>
