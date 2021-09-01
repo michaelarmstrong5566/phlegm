@@ -13,10 +13,10 @@
     <fieldset>
         <legend>Spirometry</legend>
         <label for="fev1-post">FEV1 Post-bronchodilator</label><br>
-        <input type="number" id="fev1-post" placeholder="FEV1 (L)"><br><br>
+        <input type="number" onchange = "ratio()" id="fev1-post" placeholder="FEV1 (L)"><br><br>
 
         <label for="fvc-post">FVC Post-bronchodilator</label><br>
-        <input type="number" id="fvc-post" placeholder="FVC (L)"><br>
+        <input type="number" onchange = "ratio()" id="fvc-post" placeholder="FVC (L)"><br>
     </fieldset>
 
     <fieldset>
@@ -33,5 +33,7 @@
     
     </form>
 
+    <script type="text/javascript" src="script.js">
+    </script> 
 </body>
 </html>
