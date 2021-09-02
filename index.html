@@ -12,20 +12,29 @@
     <form id="form">
     <fieldset>
         <legend>Spirometry</legend>
+        <br>
         <label for="fev1-post">FEV1 Post-bronchodilator</label><br>
         <input type="number" onchange = "ratio()" id="fev1-post" placeholder="FEV1 (L)"><br><br>
 
         <label for="fvc-post">FVC Post-bronchodilator</label><br>
         <input type="number" onchange = "ratio()" id="fvc-post" placeholder="FVC (L)"><br>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Output</legend>
+        <p id="ratio"></p>
     </fieldset>
 
     <fieldset>
         <legend>Definitions</legend>
-        <P><dfn title="">Spirometry</dfn> "a breathing test which involve breathing fully in and blowing out as fast as possible"</P>
-        <p><dfn title="Forced Expiratory Volume 1 second">FEV1</dfn> "after breathing in fully, the amount of air in liters forcefully expelled in one second"</p>
-        <p><dfn title="Forced Expiratory Volume">FVC</dfn> "after breathing in fully, the total amount of air in liters forcefully expelled"</p>
-        <p><dfn title="">Post-bronchodilator</dfn> "after using a bronchodilator"</p>
-        <p><dfn title="">bronchodilator</dfn> "a medication that opens airways in the lungs making it easier to breath"</p>
+        <p><dfn title="">FEV1/FVC ratio</dfn> a ratio that describes how fast you can blow out</p>
+        <p><dfn title="">FEV1/FVC less than 0.7"</dfn> air is coming to slow, a Post-bronchodilator ratio less than 0.7 confirms the diagnosis of COPD</p>
+        <P><dfn title="">Spirometry</dfn> a breathing test which involve breathing fully in and blowing out as fast as possible</P>
+        <p><dfn title="Forced Expiratory Volume 1 second">FEV1</dfn> after breathing in fully, the amount of air in liters forcefully expelled in one second</p>
+        <p><dfn title="Forced Expiratory Volume">FVC</dfn> after breathing in fully, the total amount of air in liters forcefully expelled</p>
+        <p><dfn title="">Post-bronchodilator</dfn> after using a bronchodilator</p>
+        <p><dfn title="">bronchodilator</dfn> a medication that opens airways in the lungs making it easier to breath</p>
     </fieldset>
 
 
