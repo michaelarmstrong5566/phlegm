@@ -13,6 +13,15 @@ function ratio(){
   //console.log(typeof ratio);
   console.log(ratio);
 
-  document.getElementById("ratio").innerHTML = "FEV1/FVC ratio = " + (fev1.value/fvc.value).toFixed(2);
+  document.getElementById("ratio").innerHTML = "FEV1/FVC ratio = " + (fev1.value/fvc.value).toFixed(2); 
+  
+  if(ratio > 0.7){
+    document.getElementById("step-1").style.display="none";
+    console.log("fev1/fvc > 0.7");
+    }
+  else {
+    document.getElementById("step-1").style.display="block";
+    console.log("fev1/fvc < 0.7")
+  }
 
 }
