@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>copd.ai.pg.1</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <form id="form-pg-1">
+    <fieldset>
+        <legend>Parameters</legend>
+        
+    </fieldset>
+    </form>
+
+    <script type="text/javascript" src="script.js">
+    </script> 
+</body>
+</html>

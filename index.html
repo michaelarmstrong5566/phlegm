@@ -12,6 +12,7 @@
     <form id="form">
     <fieldset>
         <legend>Spirometry</legend>
+        <a href="copdai-pg-1.html">copd-pg-1</a>
         <br>
         <label for="fev1-post">FEV1 Post-bronchodilator</label><br>
         <input type="number" onchange = "ratio()" id="fev1-post" placeholder="FEV1 (L)"><br><br>
@@ -19,7 +20,7 @@
         <label for="fvc-post">FVC Post-bronchodilator</label><br>
         <input type="number" onchange = "ratio()" id="fvc-post" placeholder="FVC (L)"><br>
         <br>
-        <input type="submit" id="step-1" value="Proceed" onchange = "hideSubmit()">
+        <input type="submit" id="step-1" value="Proceed" onsubmit="checkFev1Pred()">
     </fieldset>
 
     <fieldset>
