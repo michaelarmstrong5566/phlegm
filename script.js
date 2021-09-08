@@ -22,6 +22,9 @@ function ratio(){
   else {
     document.getElementById("step-1").style.display="block";
     console.log("fev1/fvc < 0.7")
-  }
+  }  
+}
 
+function myFunction() {
+  window.open("copdai-pg-1.html");
 }
