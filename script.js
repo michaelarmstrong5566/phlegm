@@ -26,5 +26,6 @@ function ratio(){
 }
 
 function myFunction() {
-  window.open("copdai-pg-1.html");
+  //window.open("copdai-pg-1.html", _self, true);
+  window.open("", "Yogi_WindowName");
 }
