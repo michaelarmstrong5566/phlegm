@@ -72,3 +72,9 @@
   border-left: none;
   height: 300px;
 }
+
+/* Outline h3 */
+
+h3 {
+  outline: 3px dotted rgb(0, 102, 128);
+}
